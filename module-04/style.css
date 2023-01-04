@@ -1,0 +1,222 @@
+/***************** Default CSS *******************/
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  margin: 0;
+  text-decoration: underline;
+  color: rgba(0, 0, 255, 0.689);
+  letter-spacing: 2px;
+}
+h2 {
+  background-color: rgba(77, 77, 126, 0.47);
+  color: rgb(78, 76, 76);
+  opacity: 0.8;
+  width: fit-content;
+  font-size: 12px;
+}
+
+h3 {
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 10px black;
+  margin: 40px 0;
+}
+
+/***************** Header CSS *******************/
+
+header nav > ul {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin-right: 40px;
+  padding: 4px 6px;
+  border-radius: 2px;
+  border: 1px solid rebeccapurple;
+  list-style-type: none;
+  transition: 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+header nav ul li:hover {
+  background-color: cornflowerblue;
+  border: 1px solid transparent;
+}
+
+header nav ul li:hover .down-arrow {
+  transform: rotate(180deg);
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+  transition: 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+header > nav > ul > li:hover > a {
+  color: white;
+}
+
+.down-arrow {
+  font-size: 18px;
+  margin-left: 4px;
+  transition: 0.3s;
+}
+
+nav li .dropdown {
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+
+  padding: 10px;
+  margin-left: -8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  display: none;
+}
+
+nav li:hover .dropdown {
+  display: block;
+}
+
+.dropdown li {
+  list-style: none;
+  margin-right: 0;
+  margin-top: 5px;
+}
+
+.dropdown > li:hover > a {
+  color: white;
+}
+
+.dropdown-2 {
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+  padding: 10px;
+  margin-left: 175px;
+  margin-top: -45px;
+  border-radius: 4px;
+  display: none;
+}
+
+.dropdown-2 li {
+  width: 200px;
+}
+
+.dropdown-2 > li:hover > a {
+  color: white;
+}
+
+.dropdown > li:hover .dropdown-2 {
+  display: block;
+}
+
+.dropdown-arrow-2 {
+  margin-left: 20px;
+  rotate: -90deg;
+  font-size: 18px;
+  right: 0;
+  transition: 0.3s;
+}
+.dropdown > li:hover .dropdown-arrow-2 {
+  rotate: 90deg;
+}
+
+/***************** Blogs CSS *******************/
+
+.blogs {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.blog {
+  width: 350px;
+  height: 370px;
+  background-color: rgba(54, 54, 249, 0.046);
+  padding: 2px 2px;
+  margin: 5px;
+  margin-top: 20px;
+  border-radius: 4px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.blog::-webkit-scrollbar {
+  overflow-y: scroll;
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(202, 191, 191);
+  border-radius: 5px;
+}
+
+.blog h4 {
+  text-align: justify;
+  font-size: 18px;
+  font: bolder;
+  margin: 0;
+  padding: 5px;
+  color: crimson;
+}
+
+.blog img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.blog article {
+  margin-top: 5px;
+  text-align: justify;
+  font: bold;
+  font-size: 14px;
+  padding: 5px;
+  line-height: 20px;
+}
+
+/***************** Table CSS *******************/
+
+table {
+  margin-top: 40px;
+  width: 95%;
+  border-collapse: collapse;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+table caption {
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+table thead {
+  background-color: coral;
+}
+
+th,
+td {
+  border: 1px solid gray;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+}
+
+tr:hover {
+  background-color: cornsilk;
+}
+
+/***************** Form CSS *******************/
+
+form {
+  width: 100%;
+}

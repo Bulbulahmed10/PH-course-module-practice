@@ -1,3 +1,8 @@
+# Note::module-03 git practice in module -01
+
+
+
+
 01. What is Git ? What are the advantages of using Git?
 
 **Answer 01::** Git is a DevOps(Development Operation) tool used for source code management. It is a free open-source version control system used to handle small to very large projects efficiently. Git is used to  tracking changes in the source code, enabling multiple developers to work together on non-linear development.
@@ -67,7 +72,5 @@ commit your staged content as a new commit snapshot
 05. Difference between git fetch and git pull.
 
 
-
-note::module-03 git practice in module -01
 
 

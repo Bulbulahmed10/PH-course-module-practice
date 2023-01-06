@@ -42,7 +42,7 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-  background-color: cornflowerblue;
+  background-color:blueviolet;
   border: 1px solid transparent;
 }
 
@@ -150,7 +150,14 @@ nav li:hover .dropdown {
 
 .blog::-webkit-scrollbar {
   overflow-y: scroll;
-  width: 8px;
+  width: 6px;
+  padding: 0 5px;
+  display: none;
+
+}
+
+.blog:hover{
+  cursor: move;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -220,3 +227,5 @@ tr:hover {
 form {
   width: 100%;
 }
+
+

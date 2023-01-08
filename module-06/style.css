@@ -1,0 +1,30 @@
+section{
+    background-color: blueviolet;
+    display: flex;
+    gap: 20px;
+    height: 50vh;
+    align-items: center;
+    justify-content:center;
+
+}
+
+section div{
+    padding: 20px 40px;
+    
+}
+
+section div:first-child{
+    background-color: chocolate;
+    position: relative;
+}
+
+section div:nth-child(2){
+    background-color: crimson;
+    position: absolute;
+    left: 0;
+    
+}
+
+section div:last-child{
+    background-color: darkcyan;
+}

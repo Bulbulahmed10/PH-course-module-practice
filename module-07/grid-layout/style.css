@@ -81,7 +81,7 @@ body{
 .card-bg-purple{
     background: var(--moderate-violet);
     color: var(--white);
-    background-image: url(./bg-pattern-quotation.svg);
+    background-image: url(./images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     background-position: top 10px right 100px;
 }
